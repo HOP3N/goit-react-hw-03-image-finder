@@ -7,10 +7,11 @@ export const Searchbar = ({ onSubmit }) => (
       <button type="submit" className={css.SearchFormButton}>
         <span className={css.SearchFormButtonLabel}>Search</span>
       </button>
+
       <input
-        type="text"
         name="inputForSearch"
         className={css.SearchFormInput}
+        type="text"
         autoComplete="off"
         autoFocus
         placeholder="Search images and photos"
